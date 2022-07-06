@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+  .header {
+    max-width: 1600px;
+    align-items: center;
+    margin: auto;
+  }
+  .top-part-of-header .Logo {
+    width: 213px;
+    align-items: center;
+  }
+  .copy-header {
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .bottom-part-of-header {
+    margin-top: 20px;
+  }
+  .bottom-part-of-header a {
+    margin-top: 30x;
+    margin: 5px 10px;
+    font-size: 16px;
+  }
+  .search {
+    display: flex;
+    margin-left: 50px;
+  }
+}
