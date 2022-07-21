@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  .top-part-of-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+  }
+  .copy-header {
+    max-width: 350px;
+    font-size: 400;
+    font-weight: bold;
+    text-align: center;
+  }
+  .hamburger-button {
+    display: flex;
+    justify-content: center;
+    transition: border-radius 0.5s;
+  }
+  .hamburger-button:hover {
+    border-radius: 50%;
+    background-color: black;
+  }
+  .bottom-part-of-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+  }
+}

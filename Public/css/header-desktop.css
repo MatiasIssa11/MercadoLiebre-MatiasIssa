@@ -23,7 +23,9 @@
     font-size: 16px;
   }
   .search {
-    display: flex;
-    margin-left: 50px;
+    position: relative;
+    right: -60px;
+    top: 1px;
+    padding: 10px;
   }
 }
